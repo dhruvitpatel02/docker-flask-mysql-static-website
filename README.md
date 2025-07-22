@@ -42,14 +42,15 @@ This project demonstrates how to deploy a simple Python Flask web application wi
 
 .
 ├── app/
-│ ├── app.py # Flask backend
-│ ├── templates/
-│ │ └── index.html # Main page
-│ └── static/
-│ └── style.css # Custom CSS styling
+│   ├── app.py               # Flask backend
+│   ├── templates/
+│   │   └── index.html       # Main HTML page
+│   └── static/
+│       └── style.css        # Custom CSS styling
 ├── db/
-│ └── init.sql # Optional: MySQL setup script
-├── Dockerfile # Dockerfile for Flask app
-├── docker-compose.yml # Compose config for Flask + MySQL
-├── deploy.sh # EC2 deployment automation script
-└── README.md # Documentation (this file)
+│   └── init.sql             # Optional: MySQL setup script
+├── Dockerfile               # Dockerfile for Flask app
+├── docker-compose.yml       # Compose config for Flask + MySQL
+├── deploy.sh                # EC2 deployment automation script
+└── README.md                # Documentation (this file)
+
